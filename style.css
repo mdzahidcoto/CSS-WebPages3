@@ -1,0 +1,67 @@
+body {
+    font-family: 'Amiri', serif;
+    font-family: 'Redressed', 'cursive';
+    margin: 0;
+}
+/* section setup */
+.section-arrange {
+    display: flex;
+    float: left;
+}
+/* Section background 1 */
+.section-background1 {
+    background-image: url(image/background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*half division setup */
+.half-div {
+    width: 40%;
+    margin: 2%;
+    padding: 3%;
+}
+/*heading color setup */
+.tomato-heading {
+    font-size: 700;
+    color: tomato;
+}
+/* Botton setup*/
+.botton-style {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    background-image: linear-gradient(45deg, tomato, red);
+}
+/* Profile image setup */
+.profile-img {
+    width: 100%;
+}
+/* Section background 2 */
+.section-background2 {
+    background-image: url(image/background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*protfolio text */
+.protfolio-text {
+    text-align: center;
+}
+/*protfolio div setup */
+.one-third-div {
+    width: 33.33%;
+}
+/* Last section */
+.last-section {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+/* Footer style */
+.footer {
+    margin: 0px;
+    padding: 30px;
+    text-align: center;
+    color: black;
+    font-size: 0.8em;
+    background-color: rgba(228, 179, 179, 0.2);
+}
